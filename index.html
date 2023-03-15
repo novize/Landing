@@ -4,14 +4,21 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!-- Начало: Данный блок удалять нельзя -->
     <div class="maketforfigma">
         <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
+            <img src="/picture/logo.png">
         </a>
         <div>
             <p>
@@ -25,7 +32,211 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+       <header class="main-header">
+        <nav class="header-nav">
+            <ul class="navigation-top">
+                <li class="navigation-top-item"><a href="#">Collections</a></li>
+                <li class="navigation-top-item"><a href="#">Products</a></li>
+                <li class="navigation-top-item"><a href="#">Inspiration</a></li>
+                <li class="navigation-top-item"><a href="#">About us</a></li>
+                <li class="navigation-top-item"><a href="#">Find a dealer</a></li>
+            </ul>
+        </nav>
+        <h1 class="header-title">Lasting memories</h1>
+       </header>
+
+       <main class="content">
+            <section class="tables">
+                <div class="tables-info">
+                    <h2 class="tables-title">Making tables heroes</h2>
+                    <p>Chairs, cabinets, but especially tables by Joli are durable products, designed to last and to be used intensively.</p>
+                    <div class="reflinks">
+                        <a href="" class="button ref">About us</a>
+                        <a href="" class="button ref">Collections</a>
+                    </div>
+                </div>
+                <div class="tables-img">
+                    <figure>
+                        <img src="/img/glass-table.jpg" alt="glass table">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <figcaption>region</figcaption>
+                        <img src="/img/wood-table.jpg" alt="wood table">
+                    </figure>
+                    <figure>
+                        <img src="/img/stone-table.jpg" alt="stone table">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="collections">
+                <h2 class="tables-title">Our collections</h2>
+                <ul class="collection-list">
+                    <li class="list-item"><a href="">Central</a></li>
+                    <li class="list-item"><a href="">Olivo</a></li>
+                    <li class="list-item"><a href="">Morisot</a></li>
+                    <li class="list-item"><a href="">Curve</a></li>
+                    <li class="list-item"><a href="">Wire</a></li>
+                    <li class="list-item"><a href="">Marguerite</a></li>
+                    <li class="list-item"><a href="">Fizz</a></li>
+                    <li class="list-item"><a href="">Rafael</a></li>
+                    <li class="list-item"><a href="">Chagall</a></li>
+                </ul>
+           
+                <figure class="slider-img slider-left">
+                    <div class="img-block">
+                        <img src="/img/central-table.jpg" alt="">
+                        <span class="slider-title">Central</span>
+                        <span class="slider-text">award winner</span>
+                    </div>
+                    <div class="after-img">
+                        <figcaption>ready to become the centerpiece of your home</figcaption>
+                        <a class="after" href="#"><img src="/picture/right-arrow.svg" alt=""></a>
+                    </div>
+                </figure>
+                
+                <figure class="slider-img slider-right">
+                    <div class="img-block">
+                        <img src="/img/olivo-table.jpg" alt="">
+                        <span class="slider-title">Olivo</span>
+                    </div>
+                    <div class="after-img">
+                        <figcaption>Believe us, this will be a real eye-catcher</figcaption>
+                        <a class="after none" href="#"><img src="/picture/right-arrow.svg" alt=""></a>
+                    </div>
+                </figure>
+               
+                <div class="slider-switcher">
+                    <img src="/picture/right-arrow.svg" alt="">
+                        <span class="slider-counter"><span>1</span>/<span>9</span></span>
+                    <img src="/picture/right-arrow.svg" alt="">
+                </div>
+
+            </section>
+
+            <section class="bisnes">
+                <div class="bisnes-table">
+                    <h2 class="tables-title">Find a dealer</h2>
+                    <p>We work together with dealers in 19 countries, all over the world. Find out which one is closest to you.</p>
+                    <form action="" method="get">
+                        <input type="text" value="Your location">
+                        <button class="button form-b" type="submit">Search</button>
+                    </form>
+                </div>
+                <img class="bisnes-map" src="/picture/map.png" alt="">
+            </section>
+
+            <section class="ideas">
+
+                <div class="ideas-header">
+                    <h2 class="ideas-title">Terrace<br> Ceremonies & Meetings</h2>
+                    <a href="#" class="button idea">Inspire me</a>                    
+                </div>
+
+                <div class="jolies">
+                    <p class="joli-text">Joli manages to offer designs that are both timelessly modern and trendy</p>
+                    <a href="#" class="button joli">About us</a>
+                </div>
+            </section>
+            
+            <section class="partners">
+                <div class="dealer">
+                    <div class="dealer-content">
+                        <h2 class="ideas-title">Become a dealer</h2>
+                        <p>Do you want to become a Joli retailer? Please submit the following form and we will contact you!</p>
+                        <a href="" class="button form-b">Learn more</a>
+                    </div>
+                    <img src="/picture/partners-img-1.jpg" alt="">
+                </div>
+                <div class="partner-img">
+                    <img src="/picture/partners-img-2.jpg" alt="">
+                 </div>
+
+                <div class="catalog">
+                    <p class="catalog-text">Request our<br> 2022 catalogue.</p>
+                    <div class="form-area">
+                        <p class="form-text">Email address   *</p>
+                        <form  class="catalog-form" action="" method="post">
+                            <input type="text" value="">
+                            <button class="button form-b" type="submit">Send</button>
+                        </form>
+                        <p class="form-text policy">I agree with the <a href="">Privacy & Cookie Policy</a> of Joli</p>
+                    </div>
+                </div>
+            </section>
+       </main>
+
+       <footer class="foo">
+        <a href="#">
+            <div class="logo">
+                <img src="/picture/foo-logo-1.svg" alt="">
+                <img src="/picture/foo-logo-2.svg" alt="">
+                <img src="/picture/foo-logo-3.svg" alt="">
+                <img src="/picture/foo-logo-4.svg" alt="">            
+            </div>
+        </a>
+        <nav class="foo-navigation">
+            <ul class="foo-nav">
+                <li class="foo-nav-items"><h3>Collections</h3>
+                    <ul class="foo-nav-items-list">
+                        <li class="foo-nav-item"><a href="" >Wire</a></li>
+                        <li class="foo-nav-item"><a href="" >Curve</a></li>
+                        <li class="foo-nav-item"><a href="" >Fizz</a></li>
+                        <li class="foo-nav-item"><a href="" >Marguerite</a></li>
+                    </ul>
+                </li>
+
+                <li class="foo-nav-items"><h3>Products</h3>
+                    <ul class="foo-nav-items-list">
+                        <li class="foo-nav-item"><a href="" >Tables</a></li>
+                        <li class="foo-nav-item"><a href="" >Chairs</a></li>
+                        <li class="foo-nav-item"><a href="" >Cabinets</a></li>
+                        <li class="foo-nav-item"><a href="" >Accessories</a></li>
+                    </ul>
+                </li>
+
+                <li class="foo-nav-items"><h3>Inspiration</h3>
+                    <ul class="foo-nav-items-list">
+                        <li class="foo-nav-item"><a href="" >Joli Days 2022</a></li>
+                        <li class="foo-nav-item"><a href="" >Terrace</a></li>
+                        <li class="foo-nav-item"><a href="" >Ceremonies & Meetings</a></li>
+                    </ul>
+                </li>
+
+                <li class="foo-nav-items"><h3>About us</h3>
+                    <ul class="foo-nav-items-list">
+                        <li class="foo-nav-item"><a href="" >Materials</a></li>
+                        <li class="foo-nav-item"><a href="" >Find a dealer</a></li>
+                        <li class="foo-nav-item"><a href="" >Professionals</a></li>
+                        <li class="foo-nav-item"><a href="" >News</a></li>
+                    </ul>
+                </li>
+
+                <li class="foo-nav-items"><h3>Contact</h3>
+                    <ul class="foo-nav-items-list">
+                        <li class="foo-nav-item"><a href="" >Industrielaan 5</a></li>
+                        <li class="foo-nav-item"><a href="" >8520 Kortrijk</a></li>
+                        <li class="foo-nav-item"><a href="" >info@joli.be</a></li>
+                    </ul>
+                </li>
+            </ul>
+        
+            <div class="foo-bottom-info">
+                  <ul class="foo-info-list">
+                       <li class="foo-info-item"><a href="">Privacy & Cookie Policy</a></li>
+                       <li class="foo-info-item"><a href="">Disclaimer</a></li>
+                       <li class="foo-info-item"><a href="">made by skinn</a></li>
+                   </ul>
+               <div class="social">
+                    <a href="#"><img src="/picture/fb.svg" alt="" class="foo-social"></a>
+                    <a href="#"><img src="/picture/Insta.svg" alt="" class="foo-social"></a>
+                    <a href="#"><img src="/picture/pin.svg" alt="" class="foo-social"></a>
+                </div>
+            </div>
+        </nav>
+       </footer>
     </div>
 
 </body>
