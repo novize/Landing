@@ -35,7 +35,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-image: url(picture/header-background.jpg);
+    background-image: url(header-background.jpg);
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -637,9 +637,9 @@ body {
             align-items: center;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    background: url(picture/ideas-back-1.jpg) 84px 0px no-repeat,
-       url(picture/ideas-back-2.jpg) 950px 84px no-repeat,
-       url(picture/ideas-back-3.jpg) 852px 430px no-repeat;
+    background: url(ideas-back-1.jpg) 84px 0px no-repeat,
+       url(ideas-back-2.jpg) 950px 84px no-repeat,
+       url(ideas-back-3.jpg) 852px 430px no-repeat;
     width: 1200px;
     height: 592px;
  }
